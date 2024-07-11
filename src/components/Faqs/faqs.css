@@ -1,0 +1,115 @@
+
+
+.faqs-wrapper,.faqs-question-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faqs-wrapper{
+    margin-top: 15.5rem;
+}
+.faqs-title {
+  font-size: 3.05rem;
+  color: var(--Very-Dark-Blue);
+  font-weight: 500;
+  letter-spacing: 0.089rem;
+  margin-left: 2px;
+  line-height: 1.1;
+  text-align: center;
+}
+.faqs-paragraph{
+    margin-top: 2.49rem;
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  letter-spacing: 0.0064rem;
+  max-width: 515px;
+  text-align: center;
+}
+.faqs-question-container{
+    margin-top: 5.6rem;
+    max-width: 541px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+
+    
+}
+.faq{
+    max-width: 541px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+
+}
+
+.faq-question-icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.faq-question{
+    padding: 2.32rem 0 2rem 0;
+    font-size: 1.84rem;
+    letter-spacing: .003rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--Very-Dark-Blue);
+
+}
+.faq-question:hover{
+    cursor: pointer;
+    color: var(--soft-red);
+    transition: .3s ease;
+}
+.faq-question.third{
+ margin-top: 4px;   
+}
+.faq-description{
+    padding-bottom: 3.4rem;
+}
+.arrow-icon{
+    cursor: pointer;
+
+}
+.arrow-icon.first{
+    margin-right: 23px;
+    margin-top: 2px;
+}
+.arrow-icon.second{
+    margin-top: 11px;
+    margin-right: 23px;
+}
+.arrow-icon.third{
+    margin-right: 24px;
+    margin-top: 1.3px;
+
+}
+.arrow-icon.fourth{
+    margin-top: 1.3px;
+    margin-right: 24px;
+}
+.arrow-icon.toggled{
+    transition: .2s ease-in-out;
+    transform: rotate(180deg);
+}
+.btn.faqs{
+    max-width: 114px;
+    width: 100%;
+    background-color: var(--soft-blue);
+    margin-top: 5.21rem;
+    color: white;
+    height: 47px;
+}
+@media (width <= 600px) {
+    .faqs-wrapper{
+        padding: 0 3.2rem; 
+
+    }
+}

@@ -1,0 +1,110 @@
+.downloads-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 16.1rem;
+}
+.downloads-title {
+  font-size: 3.1rem;
+  color: var(--Very-Dark-Blue);
+  font-weight: 400;
+  letter-spacing: 0.09rem;
+  margin-left: 4px;
+  line-height: 1.1;
+}
+.downloads-paragraph {
+  margin-top: 2.49rem;
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  /* color: red; */
+  letter-spacing: 0.0064rem;
+  max-width: 542px;
+  text-align: center;
+}
+.downloads-card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3.4rem;
+}
+.card {
+  height: 362px;
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 0 1rem 2rem hsl(231, 69%, 60%, 0.2); */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+
+  /* background-color: rgb(25, 40, 26); */
+  border-radius: 1.6rem;
+}
+.card.first {
+  margin-top: 5.6rem;
+}
+.card.second {
+  margin-top: 9.6rem;
+}
+.card.third {
+  margin-top: 13.6rem;
+}
+.downloads-logo {
+  margin-top: 4.1rem;
+}
+.card-title {
+  font-size: 1.8rem;
+  color: var(--Very-Dark-Blue);
+  font-weight: 500;
+  letter-spacing: 0.11rem;
+  /* color: rgb(194, 18, 18); */
+  margin-top: 3.3rem;
+  line-height: 1.1;
+}
+.card-title.third {
+  margin-left: 4px;
+}
+.card-version {
+  font-size: 1.52rem;
+  margin-top: 1.04rem;
+  font-weight: 300;
+  color: var(--Grayish-Blue);
+}
+.dots {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.btn.downloads {
+  background-color: var(--soft-blue);
+  margin-top: 2.6rem;
+  max-width: 230px;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+.btn.downloads.third {
+  max-width: 230px;
+  width: 100%;
+  margin-left: 6px;
+}
+@media (width <= 950px) {
+  .downloads-card-container {
+    flex-direction: column;
+    gap: 3.7rem;
+  }
+  .card {
+    box-shadow: 0 1rem 2rem hsla(231, 69%, 60%, 0.066);
+  }
+  .card.first {
+    margin-top: 4.5rem;
+  }
+  .card.second,
+  .card.third {
+    margin-top: 0;
+  }
+}

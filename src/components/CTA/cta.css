@@ -1,0 +1,104 @@
+
+.cta-wrapper{
+    min-height: 360px;
+    margin-top: 15.1rem;
+}
+.cta-wrapper{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--soft-blue);
+}
+.cta-title{
+    max-width: 420px;
+    font-size: 3.05rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.089rem;
+    margin-top: 3.6rem;
+    margin-left: 2.1px;
+    line-height: 1.25;
+}
+.cta-paragraph{
+    margin-top: 6.9rem;
+    color: white;
+    font-weight: 450;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin-left: 6.6px;
+    letter-spacing: 0.58rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cta-form{
+max-width: 442px;
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+margin-top: 3.75rem;
+
+}
+.field{
+    width: 100%;
+}
+input{
+    width: 300px; /* This is not a good idea */
+    height: 48px;
+    border-radius: .6rem;
+    border: none;
+    margin-right: auto;
+}
+input::placeholder{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2rem;
+    color: var(--Grayish-Blue);
+    padding-left: 2.1rem;
+    letter-spacing: .12rem;
+    opacity: .35;
+
+}
+.btn.cta{
+    max-width:126px ;
+    margin-left: auto;
+    color: white;
+    background-color: var(--soft-red);
+}
+.btn.cta:hover{
+background-color: white;
+border: 2px solid var(--soft-red);
+color: var(--soft-red);
+}
+.error{
+    display: flex;
+    align-self: flex-start;
+    background-color: red;
+    padding: 1rem 0 1rem 1rem;
+    border-radius: 0 0 .64rem .64rem;
+    margin-top: -3px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    color:white;
+}
+@media (width <= 1160px) {
+ .cta-form{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 0 3.2rem 3.2rem 3.2rem;
+ } 
+ .btn.cta,input {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+ } 
+ .error{
+    align-items: center;
+    width: 50%;
+    margin-left: 21px;
+ }
+}
